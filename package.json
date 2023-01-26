@@ -1,7 +1,7 @@
 {
-  "name": "npm-package-typescript-template",
+  "name": "typedoc-plugin-copy-code-to-clipboard",
   "version": "1.0.0-alpha",
-  "description": "npm package TypeScript template",
+  "description": "TypeDoc plugin copy code block",
   "author": "Mark <mark@remarkablemark.org>",
   "main": "lib/index.js",
   "scripts": {
@@ -19,15 +19,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/remarkablemark/npm-package-typescript-template"
+    "url": "https://github.com/remarkablemark/typedoc-plugin-copy-code-to-clipboard"
   },
   "bugs": {
-    "url": "https://github.com/remarkablemark/npm-package-typescript-template/issues"
+    "url": "https://github.com/remarkablemark/typedoc-plugin-copy-code-to-clipboard/issues"
   },
   "keywords": [
-    "npm-package-typescript-template"
+    "typedoc",
+    "plugin",
+    "copy",
+    "code",
+    "code block",
+    "clipboard"
   ],
-  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "17.4.2",
     "@commitlint/config-conventional": "17.4.2",
