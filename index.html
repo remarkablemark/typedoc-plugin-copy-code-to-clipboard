@@ -42,6 +42,19 @@
 <pre><code class="language-sh"><span class="hl-0">npx </span><span class="hl-1">typedoc</span><span class="hl-0"> </span><span class="hl-1">src</span><span class="hl-0"> </span><span class="hl-1">--plugin</span><span class="hl-0"> </span><span class="hl-1">typedoc-plugin-copy-code-to-clipboard</span>
 </code></pre>
 
+<a href="#development" id="development" style="color: inherit; text-decoration: none;">
+  <h2>Development</h2>
+</a>
+<p>Build the plugin:</p>
+<pre><code class="language-sh"><span class="hl-0">npm </span><span class="hl-1">run</span><span class="hl-0"> </span><span class="hl-1">build</span><span class="hl-0"> </span><span class="hl-3"># npm run build:watch</span>
+</code></pre>
+<p>Generate the docs:</p>
+<pre><code class="language-sh"><span class="hl-0">npm </span><span class="hl-1">run</span><span class="hl-0"> </span><span class="hl-1">docs</span>
+</code></pre>
+<p>Open the docs:</p>
+<pre><code class="language-sh"><span class="hl-0">open </span><span class="hl-1">docs/index.html</span>
+</code></pre>
+
 <a href="#release" id="release" style="color: inherit; text-decoration: none;">
   <h2>Release</h2>
 </a>
@@ -84,7 +97,7 @@
 pre > button {
   background: var(--code-background);
   border-radius: 0.8em;
-  border: 0.1em solid var(--color-text-aside);
+  border: 0.1em solid var(--color-accent);
   cursor: pointer;
   height: 30px;
   opacity: 0;
@@ -95,13 +108,13 @@ pre > button {
   user-select: none;
 }
 pre:hover > button {
-  opacity: 0.5;
-}
-pre > button:hover {
   opacity: 1;
 }
-pre > button:active, pre > button:focus {
+pre > button:active,
+pre > button:focus,
+pre > button:hover {
   background: var(--color-background);
+  border-color: var(--color-text-aside);
   opacity: 1;
   outline: 0;
 }</style><script>(function(){function init() {
