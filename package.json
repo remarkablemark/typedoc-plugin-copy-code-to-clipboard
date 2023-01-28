@@ -8,6 +8,7 @@
     "build": "tsc",
     "build:watch": "npm run build -- --watch",
     "clean": "rm -rf coverage lib",
+    "docs": "typedoc",
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
     "lint:fix": "npm run lint -- --fix",
     "lint:tsc": "tsc --noEmit",
