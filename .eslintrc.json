@@ -21,5 +21,13 @@
     "simple-import-sort/exports": "error",
     "simple-import-sort/imports": "error",
     "tsdoc/syntax": "error"
-  }
+  },
+  "overrides": [
+    {
+      "files": ["__tests__/script.test.ts"],
+      "rules": {
+        "tsdoc/syntax": "off"
+      }
+    }
+  ]
 }
