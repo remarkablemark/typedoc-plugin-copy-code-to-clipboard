@@ -40,6 +40,26 @@ Or specify the plugin when running the CLI command:
 npx typedoc src --plugin typedoc-plugin-copy-code-to-clipboard
 ```
 
+## Development
+
+Build the plugin:
+
+```sh
+npm run build # npm run build:watch
+```
+
+Generate the docs:
+
+```sh
+npm run docs
+```
+
+Open the docs:
+
+```sh
+open docs/index.html
+```
+
 ## Release
 
 Release is automated with [Release Please](https://github.com/googleapis/release-please).
