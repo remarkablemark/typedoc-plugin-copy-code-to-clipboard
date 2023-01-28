@@ -19,7 +19,7 @@
 <p><a href="https://nodei.co/npm/typedoc-plugin-copy-code-to-clipboard/"><img src="https://nodei.co/npm/typedoc-plugin-copy-code-to-clipboard.png" alt="NPM"></a></p>
 <p><a href="https://www.npmjs.com/package/typedoc-plugin-copy-code-to-clipboard"><img src="https://img.shields.io/npm/v/typedoc-plugin-copy-code-to-clipboard.svg" alt="NPM version"></a>
 <a href="https://github.com/remarkablemark/typedoc-plugin-copy-code-to-clipboard/actions/workflows/build.yml"><img src="https://github.com/remarkablemark/typedoc-plugin-copy-code-to-clipboard/actions/workflows/build.yml/badge.svg" alt="build"></a></p>
-<p><a href="https://github.com/TypeStrong/typedoc">TypeDoc</a> plugin that renders a button to copy code to clipboard for code blocks.</p>
+<p><a href="https://github.com/TypeStrong/typedoc">TypeDoc</a> plugin that adds a button to copy code to clipboard for code blocks.</p>
 
 <a href="#installation" id="installation" style="color: inherit; text-decoration: none;">
   <h2>Installation</h2>
@@ -35,8 +35,11 @@
 <a href="#configuration" id="configuration" style="color: inherit; text-decoration: none;">
   <h2>Configuration</h2>
 </a>
-<p>Configure <a href="https://typedoc.org/guides/options/">TypeDoc option</a> in <code>typedoc.json</code>:</p>
-<pre><code class="language-json"><span class="hl-0">{</span><br/><span class="hl-0">  </span><span class="hl-2">// ...</span><br/><span class="hl-0">  </span><span class="hl-3">&quot;plugin&quot;</span><span class="hl-0">: [</span><span class="hl-1">&quot;typedoc-plugin-copy-code-to-clipboard&quot;</span><span class="hl-0">]</span><br/><span class="hl-0">}</span>
+<p>Add the plugin to <a href="https://typedoc.org/guides/options/"><code>typedoc.json</code></a>:</p>
+<pre><code class="language-json"><span class="hl-0">{</span><br/><span class="hl-0">  </span><span class="hl-2">&quot;entryPoints&quot;</span><span class="hl-0">: [</span><span class="hl-1">&quot;src&quot;</span><span class="hl-0">],</span><br/><span class="hl-0">  </span><span class="hl-2">&quot;plugin&quot;</span><span class="hl-0">: [</span><span class="hl-1">&quot;typedoc-plugin-copy-code-to-clipboard&quot;</span><span class="hl-0">]</span><br/><span class="hl-0">}</span>
+</code></pre>
+<p>Or specify the plugin when running the CLI command:</p>
+<pre><code class="language-sh"><span class="hl-0">npx </span><span class="hl-1">typedoc</span><span class="hl-0"> </span><span class="hl-1">src</span><span class="hl-0"> </span><span class="hl-1">--plugin</span><span class="hl-0"> </span><span class="hl-1">typedoc-plugin-copy-code-to-clipboard</span>
 </code></pre>
 
 <a href="#release" id="release" style="color: inherit; text-decoration: none;">
