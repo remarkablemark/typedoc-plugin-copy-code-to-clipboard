@@ -21,7 +21,7 @@ npm install typedoc-plugin-copy-code-to-clipboard --save-dev
 yarn add typedoc-plugin-copy-code-to-clipboard --dev
 ```
 
-TypeDoc automatically detected installed plugins. This plugin requires TypeDoc version ^0.23.x.
+TypeDoc automatically detected installed plugins. This plugin requires TypeDoc version `^0.23`.
 
 ## Configuration
 
