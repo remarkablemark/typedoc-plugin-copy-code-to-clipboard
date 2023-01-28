@@ -1,15 +1,18 @@
 {
   "compilerOptions": {
-    "target": "es2020",
+    "target": "es5",
     "module": "commonjs",
-    "lib": ["es2020"],
+    "lib": ["dom"],
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
     "forceConsistentCasingInFileNames": true,
+    "removeComments": true,
     "strict": true,
     "outDir": "lib",
-    "noEmit": true
+    "jsx": "react",
+    "jsxFactory": "JSX.createElement",
+    "jsxFragmentFactory": "JSX.Fragment"
   },
   "include": ["src"]
 }
