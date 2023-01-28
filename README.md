@@ -5,7 +5,7 @@
 [![NPM version](https://img.shields.io/npm/v/typedoc-plugin-copy-code-to-clipboard.svg)](https://www.npmjs.com/package/typedoc-plugin-copy-code-to-clipboard)
 [![build](https://github.com/remarkablemark/typedoc-plugin-copy-code-to-clipboard/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/typedoc-plugin-copy-code-to-clipboard/actions/workflows/build.yml)
 
-[TypeDoc](https://github.com/TypeStrong/typedoc) plugin that renders a button to copy code to clipboard for code blocks.
+[TypeDoc](https://github.com/TypeStrong/typedoc) plugin that adds a button to copy code to clipboard for code blocks.
 
 ## Installation
 
@@ -25,13 +25,19 @@ TypeDoc automatically detected installed plugins. This plugin requires TypeDoc v
 
 ## Configuration
 
-Configure [TypeDoc option](https://typedoc.org/guides/options/) in `typedoc.json`:
+Add the plugin to [`typedoc.json`](https://typedoc.org/guides/options/):
 
 ```json
 {
-  // ...
+  "entryPoints": ["src"],
   "plugin": ["typedoc-plugin-copy-code-to-clipboard"]
 }
+```
+
+Or specify the plugin when running the CLI command:
+
+```sh
+npx typedoc src --plugin typedoc-plugin-copy-code-to-clipboard
 ```
 
 ## Release
