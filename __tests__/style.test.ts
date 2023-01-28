@@ -10,7 +10,7 @@ describe('style', () => {
       pre > button {
         background: var(--code-background);
         border-radius: 0.8em;
-        border: 0.1em solid var(--color-text-aside);
+        border: 0.1em solid var(--color-accent);
         cursor: pointer;
         height: 30px;
         opacity: 0;
@@ -21,13 +21,13 @@ describe('style', () => {
         user-select: none;
       }
       pre:hover > button {
-        opacity: 0.5;
-      }
-      pre > button:hover {
         opacity: 1;
       }
-      pre > button:active, pre > button:focus {
+      pre > button:active,
+      pre > button:focus,
+      pre > button:hover {
         background: var(--color-background);
+        border-color: var(--color-text-aside);
         opacity: 1;
         outline: 0;
       }
