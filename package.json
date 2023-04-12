@@ -53,8 +53,8 @@
     "prettier": "2.8.7",
     "standard-version": "9.5.0",
     "ts-jest": "29.1.0",
-    "typedoc": "0.23.24",
-    "typescript": "4.9.5"
+    "typedoc": "0.24.1",
+    "typescript": "5.0.4"
   },
   "peerDependencies": {
     "typedoc": "^0.23"
