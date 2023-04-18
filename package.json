@@ -57,7 +57,7 @@
     "typescript": "5.0.4"
   },
   "peerDependencies": {
-    "typedoc": "^0.23"
+    "typedoc": "0.23 || 0.24"
   },
   "files": [
     "lib/"
