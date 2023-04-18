@@ -1,6 +1,6 @@
 {
   "name": "typedoc-plugin-copy-code-to-clipboard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeDoc plugin copy code block",
   "author": "Mark <mark@remarkablemark.org>",
   "main": "lib/index.js",

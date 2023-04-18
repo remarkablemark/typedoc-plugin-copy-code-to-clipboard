@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/remarkablemark/typedoc-plugin-copy-code-to-clipboard/compare/v1.0.0...v1.0.1) (2023-04-18)
+
+
+### Build System
+
+* **package:** update peerDependencies to support typedoc@0.24 ([9272c9d](https://github.com/remarkablemark/typedoc-plugin-copy-code-to-clipboard/commit/9272c9de6d2585c0abf3c4ad579469ad9e068be7))
+
 ## 1.0.0 (2023-01-28)
 
 
