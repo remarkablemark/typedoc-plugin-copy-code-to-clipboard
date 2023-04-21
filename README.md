@@ -1,3 +1,5 @@
+> **Note**: TypeDoc natively supports this in [TypeString/typedoc#2153](https://github.com/TypeStrong/typedoc/issues/2153)
+
 # typedoc-plugin-copy-code-to-clipboard
 
 [![NPM](https://nodei.co/npm/typedoc-plugin-copy-code-to-clipboard.png)](https://nodei.co/npm/typedoc-plugin-copy-code-to-clipboard/)
