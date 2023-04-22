@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/remarkablemark/typedoc-plugin-copy-code-to-clipboard/compare/v1.0.1...v1.0.2) (2023-04-22)
+
+
+### Documentation
+
+* **readme:** fix typo in README.md ([df1d6a6](https://github.com/remarkablemark/typedoc-plugin-copy-code-to-clipboard/commit/df1d6a6d52a888dc742e165e298d3443328a909b))
+
 ## [1.0.1](https://github.com/remarkablemark/typedoc-plugin-copy-code-to-clipboard/compare/v1.0.0...v1.0.1) (2023-04-18)
 
 
