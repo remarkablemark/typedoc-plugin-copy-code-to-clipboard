@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`load renders markup on "body.end" for typedoc v0.24.4 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "props": {
+            "html": "style",
+          },
+          "tag": [Function],
+        },
+      ],
+      "props": null,
+      "tag": "style",
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "props": {
+            "html": "(function(){scriptundefined();})();",
+          },
+          "tag": [Function],
+        },
+      ],
+      "props": null,
+      "tag": "script",
+    },
+  ],
+  "props": null,
+  "tag": Symbol(),
+}
+`;
+
+exports[`load renders markup on "body.end" for typedoc v0.24.5 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "props": {
+            "html": "style",
+          },
+          "tag": [Function],
+        },
+      ],
+      "props": null,
+      "tag": "style",
+    },
+    false,
+  ],
+  "props": null,
+  "tag": Symbol(),
+}
+`;
