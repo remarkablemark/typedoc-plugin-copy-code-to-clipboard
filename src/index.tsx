@@ -1,4 +1,5 @@
-import type { Application } from 'typedoc';
+import semver from 'semver';
+import { Application } from 'typedoc';
 import { JSX } from 'typedoc';
 
 import script from './script';
@@ -11,15 +12,20 @@ import { iife } from './utils';
  * @param app - Reference to the application that is loading the plugin.
  */
 export function load(app: Application): void {
+  // https://github.com/TypeStrong/typedoc/issues/2153
+  const hasNativeSupport = semver.gte(Application.VERSION, '0.24.5');
+
   app.renderer.hooks.on('body.end', () => (
     <>
       <style>
         <JSX.Raw html={style.trim()} />
       </style>
 
-      <script>
-        <JSX.Raw html={iife(script)} />
-      </script>
+      {!hasNativeSupport && (
+        <script>
+          <JSX.Raw html={iife(script)} />
+        </script>
+      )}
     </>
   ));
 }

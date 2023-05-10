@@ -1,4 +1,4 @@
-> **Note**: TypeDoc natively supports this in [TypeStrong/typedoc#2153](https://github.com/TypeStrong/typedoc/issues/2153)
+> **Note**: TypeDoc natively supports this in [v0.24.5](https://github.com/TypeStrong/typedoc/issues/2153)
 
 # typedoc-plugin-copy-code-to-clipboard
 
