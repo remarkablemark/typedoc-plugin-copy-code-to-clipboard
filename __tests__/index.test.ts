@@ -27,9 +27,9 @@ describe('load', () => {
       expect(app.renderer.hooks.on).toBeCalledTimes(1);
       expect(app.renderer.hooks.on).toBeCalledWith(
         'body.end',
-        expect.any(Function)
+        expect.any(Function),
       );
       expect(app.renderer.hooks.on.mock.calls[0][1]()).toMatchSnapshot();
-    }
+    },
   );
 });
