@@ -1,11 +1,16 @@
 # Changelog
 
-## [1.1.0](https://github.com/remarkablemark/typedoc-plugin-copy-code-to-clipboard/compare/v1.0.3...v1.1.0) (2023-09-18)
+## [1.1.1](https://github.com/remarkablemark/typedoc-plugin-copy-code-to-clipboard/compare/v1.1.0...v1.1.1) (2024-06-25)
 
+### Miscellaneous Chores
+
+- release 1.1.1 ([517f6e8](https://github.com/remarkablemark/typedoc-plugin-copy-code-to-clipboard/commit/517f6e88ffae59674669a494cfbd1a4e89a6d102))
+
+## [1.1.0](https://github.com/remarkablemark/typedoc-plugin-copy-code-to-clipboard/compare/v1.0.3...v1.1.0) (2023-09-18)
 
 ### Features
 
-* **package:** support typedoc &gt;=0.24.7 ([bd61167](https://github.com/remarkablemark/typedoc-plugin-copy-code-to-clipboard/commit/bd61167adc2d51eaa6625c981859272e89526564))
+- **package:** support typedoc &gt;=0.24.7 ([bd61167](https://github.com/remarkablemark/typedoc-plugin-copy-code-to-clipboard/commit/bd61167adc2d51eaa6625c981859272e89526564))
 
 ## [1.0.3](https://github.com/remarkablemark/typedoc-plugin-copy-code-to-clipboard/compare/v1.0.2...v1.0.3) (2023-05-10)
 
