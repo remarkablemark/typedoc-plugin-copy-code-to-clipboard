@@ -8,6 +8,7 @@ jest.mock('../src/style', () => 'style');
 const { VERSION } = Application;
 
 afterAll(() => {
+  // @ts-expect-error Cannot assign to 'VERSION' because it is a read-only property.
   Application.VERSION = VERSION;
 });
 
@@ -15,6 +16,7 @@ describe('load', () => {
   it.each(['0.24.4', '0.24.5'])(
     'renders markup on "body.end" for typedoc v%s',
     (version) => {
+      // @ts-expect-error Cannot assign to 'VERSION' because it is a read-only property.
       Application.VERSION = version;
       const app = {
         renderer: {
