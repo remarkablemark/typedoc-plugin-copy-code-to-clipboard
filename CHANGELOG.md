@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/remarkablemark/typedoc-plugin-copy-code-to-clipboard/compare/v1.1.1...v1.1.2) (2024-08-29)
+
+
+### Continuous Integration
+
+* **github:** publish package to npm registry with provenance ([08f5c04](https://github.com/remarkablemark/typedoc-plugin-copy-code-to-clipboard/commit/08f5c0465eff631074b357bcc76f85f587570e81))
+
 ## [1.1.1](https://github.com/remarkablemark/typedoc-plugin-copy-code-to-clipboard/compare/v1.1.0...v1.1.1) (2024-06-25)
 
 ### Miscellaneous Chores
